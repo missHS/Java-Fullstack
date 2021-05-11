@@ -1,0 +1,159 @@
+@charset "ISO-8859-1";
+
+@media screen and (max-width:600px) {
+	.column {
+		width: 100%;
+	}
+}
+
+* {
+	box-sizing: border-box;
+}
+
+header {
+	padding: 0px 100px 0px 100px;
+	text-align: center;
+	font-size: 40px;
+	background-color: #7777aa;
+	color: #fdcfe9;
+	cursor: pointer;
+}
+
+section#main {
+
+	float: center;
+	width: 70%;
+	padding: 150px 10px 150px 15px;
+	background-color: white;
+	color: #401d35d6;
+}
+
+
+section#content {
+	padding: 10px 10px 10px 10px;
+	background-color: #ffffff;
+	color: #000000;
+}
+section#mainView
+{
+	padding-top: 80px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 140px;
+	
+	float: center;
+	width: 70%;
+	
+
+
+}
+section#contentView {
+	
+	padding-top: 10px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 0px;
+	
+	color: #000000;
+	
+	
+}
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color:#333;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 16px;
+  padding: 14px;
+  width: 70px;
+  cursor: pointer;
+  margin: 5px;
+ 
+
+
+}
+.button:hover {
+	box-shadow: 0 6px 8px 0 rgba(0, 0, 0, 0.24), 0 9px 25px 0
+		rgba(0, 0, 0, 0.19);
+}
+aside {	
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: right;
+  font-style: bold;
+  background-color: #ffffff;
+
+}
+	
+
+footer {
+	text-align: center;
+	padding: 10px;
+	clear: both;
+	color: #fdcfe9;
+	background-color: #7777aa;
+}
+
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #333;
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+}
+
+li a {
+	display: block;
+	color: white;
+	padding: 14px 16px;
+	text-decoration: none;
+	font size: 17 px;
+}
+
+li a:hover {
+	background-color: #111;
+}
+
+#h2Book {
+	font-size: 30px;
+	text-align: align-left;
+}
+
+
+#InloggInfo {
+	font-size: 20px;
+	text-align: align-left;
+	font-weight: bold;
+}
+
+
+#thTable {
+	height: 50px;
+	background-color: #333;
+	color: white;
+	font-size: 20px;
+}
+
+#tdTable {
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+}
+
+#bookTable, #bookedTable {
+	width: 80%;
+	border-collapse: collapse;
+	border: 1px solid grey;
+}
+
+
+
